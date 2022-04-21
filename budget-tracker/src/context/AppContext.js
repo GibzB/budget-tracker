@@ -1,3 +1,10 @@
+const AppReducer = (state, action) => {
+    switch (action.type) {
+        default:
+            return state;
+    }
+};
+
 const initialState = {
     budget: 6000,
     expenses: [
